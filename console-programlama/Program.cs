@@ -11,8 +11,10 @@ namespace MyApp // Note: actual namespace depends on the project name.
             string name = Console.ReadLine();
             Console.WriteLine("Soyisminizi giriniz :");
             string surname = Console.ReadLine();
-             Console.WriteLine("Merhaba "+name+" "+surname);
+            Console.WriteLine("Merhaba "+name+" "+surname);
             Console.ReadLine();
+      
+
         }
     }
 }
