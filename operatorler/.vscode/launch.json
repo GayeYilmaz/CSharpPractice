@@ -9,22 +9,9 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/operatorler/bin/Debug/net6.0/operatorler.dll",
+            "program": "${workspaceFolder}/bin/Debug/net6.0/operatorler.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/operatorler",
-            "console": "internalConsole",
-            "stopAtEntry": false
-        },
-        
-        
-        {
-            "name": ".NET Core Launch (console)",
-            "type": "coreclr",
-            "request": "launch",
-            "preLaunchTask": "build",
-            "program": "${workspaceFolder}/degiskenler/bin/Debug/net6.0/degiskenler.dll",
-            "args": [],
-            "cwd": "${workspaceFolder}/degiskenler",
+            "cwd": "${workspaceFolder}",
             "console": "internalConsole",
             "stopAtEntry": false
         },
